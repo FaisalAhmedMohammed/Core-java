@@ -1,0 +1,8 @@
+package com.ahmed.co;
+
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

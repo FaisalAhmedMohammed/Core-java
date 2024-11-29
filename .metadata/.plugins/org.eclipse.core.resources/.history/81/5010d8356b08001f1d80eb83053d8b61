@@ -1,0 +1,18 @@
+package com.ahmed.co;
+
+class Arithmetic{
+	int num1;
+	int num2;
+	void accept() {
+		
+	}
+	void add() {
+		
+	}
+}
+public class This {
+	public static void main(String[] args) {
+		
+	}
+
+}

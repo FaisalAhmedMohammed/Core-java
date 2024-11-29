@@ -1,0 +1,15 @@
+package com.ahmed.co;
+class product{
+	int productId;
+	String productName;
+	double price;
+	void accept() {
+		Scanner sc=new Scanner(S)
+	}
+}
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

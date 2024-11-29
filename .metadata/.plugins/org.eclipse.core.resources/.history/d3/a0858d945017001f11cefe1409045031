@@ -1,0 +1,22 @@
+package com.ahmed.co;
+
+class B {
+	private void B() {
+
+	}
+}
+
+class C extends B {
+	@Override
+	 private void B() {
+		return null;
+
+	}
+}
+
+public class Overriding {
+	public static void main(String[] args) {
+		B b = new C();
+	}
+
+}

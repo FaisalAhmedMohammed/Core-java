@@ -1,0 +1,33 @@
+package com.ahmed.co;
+
+public class Tester2 {
+
+	public static void main(String[] args) {
+		Book_A_Ticket bookaticket = new Book_A_Ticket(12, "faial@123");
+		bookaticket.reserveTickets();// method calling point.
+
+		if (bookaticket.IsBooked()) {
+			//System.out.println("Tickets are booked                 :");
+			//System.out.println("your bookingId                     :" + bookaticket.getBookingId());
+			///System.out.println("conformation main is send to email :" + bookaticket.getEmail());
+			
+		} else {
+			System.out.println("sorry tickets are not booked");
+		}
+		System.out.println("___________________________-");
+		bookaticket.cancelTickekts();
+		System.out.println("Tickets are cancled for the costumer :" + bookaticket.getEmail());
+
+		System.out.println("______________________________________________________________________");
+		Book_A_Ticket bookaticket1 = new Book_A_Ticket(35, "faial@123");
+		bookaticket1.reserveTickets();
+		if (bookaticket1.IsBooked()) {
+			System.out.println("Tickets are booked                 :");
+			System.out.println("your bookingId                     :" + bookaticket1.getBookingId());
+			System.out.println("conformation main is send to email :" + bookaticket1.getEmail());
+		} else {
+			System.out.println("sorry tickets are not booked");
+		}
+	}
+
+}

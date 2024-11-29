@@ -1,0 +1,12 @@
+package com.ahmed.oop;
+class Employee{
+	private double empno;
+	private String empname;
+}
+class Full
+public class HierarchicalInhe {
+	public static void main(String[] args) {
+		
+	}
+
+}

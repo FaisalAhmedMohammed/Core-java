@@ -1,0 +1,19 @@
+package com.ahmed.co;
+
+import java.util.Scanner;
+
+class product{
+	int productId;
+	String productName;
+	double price;
+	void accept() {
+		Scanner sc=new Scanner(System.in);
+		productI
+	}
+}
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

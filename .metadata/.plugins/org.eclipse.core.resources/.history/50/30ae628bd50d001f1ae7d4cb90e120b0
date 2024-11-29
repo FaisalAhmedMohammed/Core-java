@@ -1,0 +1,18 @@
+package com.ahmed.co;
+
+class Student {//outer class
+	private String name;
+
+	Student(String namea) {
+		this.name = name;
+	}
+	
+	c
+}
+
+public class Main1 {
+	public static void main(String[] args) {
+
+	}
+
+}

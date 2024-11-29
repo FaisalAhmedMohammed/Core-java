@@ -1,0 +1,21 @@
+package com.ahmed.co;
+class Parent{
+	void property() {
+		System.out.println("cash+gokd+land");
+	}
+	void marry() {
+		System.out.println("subhalaxmi/Appalmma");
+	}
+}
+class Child{
+	void marry() {
+		System.out.println();
+	}
+	
+}
+public class Riding {
+	public static void main(String[] args) {
+		
+	}
+
+}

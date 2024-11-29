@@ -1,0 +1,30 @@
+package com.ahmed.oop;
+class Parent {
+	protected int x;
+
+	Parentnew() {
+		x = 10;
+	}
+
+}
+
+class Child extends Parentnew {
+	private int y;
+
+	Child() {
+		super();
+		y = 20;
+	}
+
+	void display() {
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+
+}

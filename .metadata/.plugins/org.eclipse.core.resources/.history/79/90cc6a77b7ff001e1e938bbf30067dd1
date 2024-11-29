@@ -1,0 +1,12 @@
+package com.faisal.co;
+
+public class Palindrome1 {
+	public static void main(String[] args) {
+		String str = "madam";
+		String rev = "";
+		for (int i = 0; i < str.length(); i++) {// m a d a m//
+			rev += str.charAt(i);
+		}
+	}
+
+}

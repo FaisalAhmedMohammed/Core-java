@@ -1,0 +1,38 @@
+package com.ahmed.thread;
+
+public class JoinUsingLambda {
+	public static void main(String[] args) throws Exception {
+		Runnable task1 = () -> {
+			for (int i = 1; i <= 10; i++) {
+				System.out.println("i = " + i);
+				try {
+					Thread.sleep(2000);
+				} catch (InterruptedException ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
+		
+		Runnable task2 = () -> {
+			for (int j = 11; j <= 20; j++) {
+				System.out.println("j = " + j);
+				try {
+					Thread.sleep(2000);
+				} catch (InterruptedException ex) {
+					ex.printStackTrace();
+				}
+
+			}
+		};
+
+		Thread t1 = new Thread(task1);
+		Thread t2 = new Thread(task2);
+		t1.start();
+		t2.start();
+		if (j == 15) {
+			t1.join();
+		}
+
+	}
+
+}

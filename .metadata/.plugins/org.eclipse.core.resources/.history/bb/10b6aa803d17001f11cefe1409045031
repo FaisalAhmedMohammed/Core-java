@@ -1,0 +1,19 @@
+package com.ahmed.co;
+
+class A1 {
+	int A1(int a) {
+	double 	return =
+	}
+	double A1(double a) {
+		return 2;
+	}
+}
+public class Newoverloaded {
+	public static void main(String[] args) {
+		A1 a = new A1();
+		a.A1(20.0);
+		a.A1(10);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.ahmed.thread;
+
+public class Local {
+	private static ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 1);
+
+	public static void main(String[] args) {
+		Runnable 
+		System.out.println(Thread.currentThread().getName() + " intial thread value " + threadLocal.get());
+
+		threadLocal.set(threadLocal.get() * 5);
+		System.out.println(
+				Thread.currentThread().getName() + "thread local value after modification" + threadLocal.get());
+		
+		Thread t1=new Thread()
+
+	}
+
+}

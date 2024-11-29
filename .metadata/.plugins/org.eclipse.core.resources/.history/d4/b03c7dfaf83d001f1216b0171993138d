@@ -1,0 +1,29 @@
+package com.ahmed.threads;
+
+public class UsingLambda {
+	public static void main(String[] args) {
+		Runnable task1 = () -> {
+			for (int i = 1; i <= 5; i++) {
+				System.out.println("i = " + i);
+				try {
+					Thread.sleep(3000);
+				} catch (InterruptedException ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
+		Runnable task2 = () -> {
+			for (int j = 6; j <= 10; j++) {
+				System.out.println("j = " + j);
+				try {
+					Thread.sleep(3000);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
+		
+		UsingLambda t1=new 
+	}
+
+}

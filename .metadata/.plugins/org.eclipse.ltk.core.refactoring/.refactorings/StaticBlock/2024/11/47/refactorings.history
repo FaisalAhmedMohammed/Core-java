@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.ashokit.Book_A_Ticker&apos; to &apos;Book_A_Ticket&apos;&#x0D;&#x0A;- Original project: &apos;StaticBlock&apos;&#x0D;&#x0A;- Original element: &apos;in.ashokit.Book_A_Ticker&apos;&#x0D;&#x0A;- Renamed element: &apos;in.ashokit.Book_A_Ticket&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Book_A_Ticker&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;in.ashokit{Book_A_Ticker.java[Book_A_Ticker" matchStrategy="1" name="Book_A_Ticket" qualified="false" references="true" similarDeclarations="false" stamp="1731831353267" textual="false" version="1.0"/>
+</session>

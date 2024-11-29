@@ -1,0 +1,28 @@
+package com.ahmed.co;
+class Parent {
+	void property() {
+		System.out.println("cash+gokd+land");
+	}
+	void marry() {
+		System.out.println("subhalaxmi/Appalmma");
+	}
+}
+class Child extends Parr {
+	void marry() {
+		System.out.println("katrina");
+	}
+}
+public class Riding {
+	public static void main(String[] args) {
+		Parent p=new Parent();
+		p.property();
+		p.marry();
+		System.out.println();
+		Child c=new Child();
+		c.marry();
+		
+		System.out.println();
+		
+		Parent p1=new Child();
+	}
+}

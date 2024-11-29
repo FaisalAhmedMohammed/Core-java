@@ -1,0 +1,17 @@
+package com.ahmed.co;
+ class A1{
+	int  A1(int a){
+		ret;
+		 
+	 }
+	 A1(){
+		 
+	 }
+	
+}
+public class Newoverloaded {
+	public static void main(String[] args) {
+		
+	}
+
+}

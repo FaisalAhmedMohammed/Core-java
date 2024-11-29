@@ -1,0 +1,9 @@
+package com.ahmed.co;
+
+public class Book {
+	public static void main(String[] args) {
+		BookingTicket book1=new BookingTicket(0, null)
+		
+	}
+
+}

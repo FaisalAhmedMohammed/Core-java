@@ -1,0 +1,23 @@
+package com.ahmed.co;
+
+class A {
+	int x;
+	double y;
+
+	void m1(double y) {
+
+	}
+
+	void m1(int x) {
+
+	}
+
+	
+
+public class overloading {
+	public static void main(String[] args) {
+		A a = new A();
+
+	}
+
+}

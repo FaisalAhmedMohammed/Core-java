@@ -1,0 +1,78 @@
+package com.ahmed.co;
+
+import java.util.Random;
+
+public class Book_A_Ticket {
+	private long BookingId;
+	private int noOfSeatsToBook;
+	private static int SeatsAvailable;
+	private boolean IsBooked;
+	private String Email;
+
+	static {
+		SeatsAvailable = 30;
+	}
+
+	public  Book_A_Ticket(int noOfSeatsToBook, String Email) {
+		this.noOfSeatsToBook = noOfSeatsToBook;
+		this.Email = Email;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return noOfSeatsToBook         +      Email+BookingId;
+	}
+
+	public void reserveTickets() {
+		if (noOfSeatsToBook > SeatsAvailable) {
+			IsBooked = false;
+
+		} else {
+			SeatsAvailable = SeatsAvailable - noOfSeatsToBook;
+			IsBooked = true;
+			Random random = new Random();
+			BookingId = random.nextInt(1000000);
+		}
+	}
+
+	public void cancelTickekts() {
+		SeatsAvailable = SeatsAvailable + noOfSeatsToBook;
+
+	}
+
+	public long getBookingId() {
+		return BookingId;
+	}
+
+	public void setBookingId(int bookingId) {
+		this.BookingId = bookingId;
+	}
+
+	public int getNoOfSeatsToBook() {
+		return noOfSeatsToBook;
+	}
+
+	public void setNoOfSeatsToBook(int noOfSeatsToBook) {
+		this.noOfSeatsToBook = noOfSeatsToBook;
+	}
+
+	public boolean IsBooked() {
+		return IsBooked;
+	}
+
+	public void setIsBooked(boolean IsBooked) {
+		this.IsBooked = IsBooked;
+	}
+
+	public String getEmail() {
+		return Email;
+	}
+
+	public void setEmail(String email) {
+		this.Email = email;
+	}
+	
+	}
+
+	

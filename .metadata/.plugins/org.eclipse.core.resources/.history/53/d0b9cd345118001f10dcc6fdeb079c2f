@@ -1,0 +1,10 @@
+package com.ahmed.oop;
+class Employee{
+	
+}
+public class HierarchicalInhe {
+	public static void main(String[] args) {
+		
+	}
+
+}

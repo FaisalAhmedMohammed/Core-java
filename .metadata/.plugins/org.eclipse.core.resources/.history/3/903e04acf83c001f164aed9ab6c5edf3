@@ -1,0 +1,20 @@
+package com.ahmed.oop;
+
+import java.time.LocalDate;
+
+public class ExamRegistration {
+	public static void main(String[] args) throws Exception {
+		LocalDate RegistrationDate = LocalDate.now();
+		LocalDate ReminderDate = RegistrationDate.plusDays(3);
+		LocalDate EndDate = ReminderDate.plusDays(10);
+		
+		Thread.sleep(100000);
+		if (LocalDate.now().isAfter(ReminderDate)) {
+			System.out.println("please write exam as early as possible ");
+		}
+		if (LocalDate.now().isAfter(EndDate)) {
+			System.out.println("your registration is cancelled Amount not refunded");
+		}
+	}
+
+}

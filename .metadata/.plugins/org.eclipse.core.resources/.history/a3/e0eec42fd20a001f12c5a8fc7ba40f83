@@ -1,0 +1,25 @@
+package com.ahmed.co;
+
+import java.time.LocalDate;
+
+class Policy{
+	private int pid;
+	private String servicecategory;
+	private String seviceprovider;
+	private boolean isactive;
+	private LocalDate createdon;
+	private LocalDate exprieson;
+	public Policy(int pid, String servicecategory, String seviceprovider, boolean isactive, LocalDate createdon,
+			LocalDate exprieson) {
+		super();
+		this.pid = pid;
+		this.servicecategory = servicecategory;
+		this.seviceprovider = seviceprovider;
+		this.isactive = isactive;
+		this.createdon = createdon;
+		this.exprieson = exprieson;
+	}
+}
+public class Tester {
+
+}

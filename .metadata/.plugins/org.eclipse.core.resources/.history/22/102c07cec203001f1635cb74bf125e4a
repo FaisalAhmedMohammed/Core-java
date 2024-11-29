@@ -1,0 +1,9 @@
+package com.ahmed.co;
+
+public class SortArray {
+	public static void main(String[] args) {
+		int[] a = { 12, 9, 5, 7, 2 };
+
+	}
+
+}

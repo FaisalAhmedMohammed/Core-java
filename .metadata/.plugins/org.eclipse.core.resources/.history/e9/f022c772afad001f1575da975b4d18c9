@@ -1,0 +1,20 @@
+package in.ahmed;
+
+class Operation {
+
+	public void divide(int a, int b) {
+		int c = a / b;
+		System.out.println(a + " divided by " + b + " is " + c);
+
+	}
+
+}
+
+public class Tester {
+	public static void main(String[] args) {
+
+		Operation op = new Operation();
+		op.divide(5, 0);
+
+	}
+}

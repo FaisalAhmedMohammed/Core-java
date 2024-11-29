@@ -1,0 +1,16 @@
+package in.ahmed;
+
+ class Tester {
+
+	public void divide(int a, int b) {
+		int c = a + b;
+
+	}
+
+}
+ public class Tester {
+	 public static void main(String[] args) {
+		
+	}
+ }
+

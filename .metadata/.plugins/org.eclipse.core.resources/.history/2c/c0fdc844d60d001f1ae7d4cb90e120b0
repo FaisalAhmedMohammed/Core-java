@@ -1,0 +1,32 @@
+package com.ahmed.co;
+
+class Student {// outer class
+	private String name;
+
+	Student(String namea) {
+		this.name = name;
+	}
+
+	class Identify {
+		private int age;
+		private double height;
+		private double weight;
+
+		void update(int age, double height, double weight) {
+			this.age = age;
+			this.height = height;
+			this.weight = weight;
+		}
+	}////end of innet class
+	
+	void display(Identity identity) {
+		
+	}
+}
+
+public class Main1 {
+	public static void main(String[] args) {
+
+	}
+
+}

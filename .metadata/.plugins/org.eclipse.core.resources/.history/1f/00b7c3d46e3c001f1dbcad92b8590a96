@@ -1,0 +1,12 @@
+package com.ahmed.oop;
+
+public class usingArrays {
+	public static void main(String[] args) {
+		int[] arr=new int[5];
+		
+		private final void m1(int[] arr) {
+			System.out.println("this is variable  arguments");
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.ahmed.co;
+class B{
+	public B(int a){
+		
+	}
+}
+class C extends B{
+	public B(int a) {
+		
+	}
+}
+public class Overriding {
+	public static void main(String[] args) {
+		
+	}
+
+}

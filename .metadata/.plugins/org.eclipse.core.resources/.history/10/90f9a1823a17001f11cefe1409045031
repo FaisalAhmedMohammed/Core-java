@@ -1,0 +1,33 @@
+package com.ahmed.co;
+
+class A {
+	int x;
+	double y;
+
+	void m1(double y) {
+		this.y = y;
+
+	}
+
+	void m1(int x) {
+		this.x = x;
+		System.out.println("m1() method in class two");
+
+	}
+
+	void m1() {
+		System.out.println(x);
+		System.out.println(y);
+	}
+}
+
+public class overloading {
+	public static void main(String[] args) {
+		A a = new A();
+		a.m1(10);
+		a.m1(30.0);
+		a.m1();
+
+	}
+
+}

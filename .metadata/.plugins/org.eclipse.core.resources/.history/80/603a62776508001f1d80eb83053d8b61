@@ -1,0 +1,12 @@
+package com.ahmed.co;
+class product{
+	int productId;
+	String productName;
+	
+}
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

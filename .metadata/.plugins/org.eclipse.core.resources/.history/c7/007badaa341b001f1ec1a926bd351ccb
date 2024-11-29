@@ -1,0 +1,43 @@
+package com.methods.co;
+
+public class AllRevise {
+	public void show() {
+		double x = 20.0;
+		double y = 5.0;
+		double z = x + y;
+		System.out.println(z);
+	}
+
+	public void display(int a, int b) {
+		int sum = a + b;
+		System.out.println(sum);
+
+	}
+
+	public int hi() {
+		int a = 10;
+		int b = 5;
+		int c = a + b;
+		return c;
+	}
+
+	public double hello(double x, double y) {
+		double z = x * y;
+		return z;
+	}
+
+	public static void main(Str1[] args) {
+		AllRevise ar = new AllRevise();
+		ar.show();
+		System.out.println("+++++++++++++++");
+		ar.display(20, 5);
+		System.out.println("=======================");
+		int hello = ar.hi();
+		System.out.println(hello);
+		System.out.println("------------------");
+		double e = ar.hello(20.0, 15.0);
+		System.out.println(e);
+
+	}
+
+}

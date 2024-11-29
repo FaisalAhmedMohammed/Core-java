@@ -1,0 +1,22 @@
+package com.ahmed.co;
+
+class B {
+	protected int B() {
+		return 1;
+
+	}
+}
+
+class C extends B {
+	public int B() {
+		return 1;
+
+	}
+}
+
+public class Overriding {
+	public static void main(String[] args) {
+		 = new C();
+	}
+
+}

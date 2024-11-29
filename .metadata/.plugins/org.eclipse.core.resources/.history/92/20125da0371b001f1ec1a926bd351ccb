@@ -1,0 +1,14 @@
+package com.methods.co;
+
+public class Factorial {
+	public void fact(int n) {
+	
+		for(int i=n;i>=1;i--) {
+			
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

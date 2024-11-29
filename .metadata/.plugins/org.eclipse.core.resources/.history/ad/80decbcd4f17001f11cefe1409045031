@@ -1,0 +1,23 @@
+package com.ahmed.co;
+
+class B {
+	protected Object B() {
+		return 1;
+
+	}
+}
+
+class C extends B {
+	public String B() {
+		@O
+		return null;
+
+	}
+}
+
+public class Overriding {
+	public static void main(String[] args) {
+		B b = new C();
+	}
+
+}

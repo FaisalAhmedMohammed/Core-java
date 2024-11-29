@@ -1,0 +1,9 @@
+package com.ahmed.co;
+
+class employee{
+	private int  empid;
+	private St
+}
+public class Encapsula {
+
+}

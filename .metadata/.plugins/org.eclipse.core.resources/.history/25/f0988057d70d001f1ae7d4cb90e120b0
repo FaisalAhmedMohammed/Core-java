@@ -1,0 +1,51 @@
+package com.ahmed.co;
+
+class Student {// outer class
+	private String name;
+
+	Student(String name) {
+		this.name = name;
+	}
+
+	class Identify {
+		private int age;
+		private double height;
+		private double weight;
+
+		void update(int age, double height, double weight) {
+			this.age = age;
+			this.height = height;
+			this.weight = weight;
+		}
+
+		public int getAge() {
+			return age;
+		}
+
+		public double getHeight() {
+			return height;
+		}
+
+		public double getWeight() {
+			return weight;
+		}
+	}//// end of inner class
+
+	void display(Identify identity) {
+		System.out.println("Student Name     :" + name);
+		System.out.println("Student age      :" + identity.getAge());
+		System.out.println("Student Height   :" + identity.getHeight());
+		System.out.println("Student weight   :" + identity.getWeight());
+	}
+}
+
+public class Main1 {
+	public static void main(String[] args) {
+		Student student=new Student("Faisal");
+		
+		
+		
+
+	}
+
+}

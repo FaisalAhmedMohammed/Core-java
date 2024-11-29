@@ -1,0 +1,12 @@
+package com.ahmed.co;
+
+class product1{
+	private int  productId;
+	private String prodct
+}
+public class Settergetter {
+	public static void main(String[] args) {
+		
+	}
+
+}

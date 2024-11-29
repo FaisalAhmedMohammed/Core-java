@@ -1,0 +1,11 @@
+package com.ahmed.thread;
+
+public class Local {
+	private static ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 1);
+
+	public static void main(String[] args) {
+		System.out.println(Thread.currentThread().getName()+" intial thread value "+thread);
+
+	}
+
+}

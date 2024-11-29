@@ -1,0 +1,15 @@
+package com.ahmed.oop;
+class A{
+	void m1(int[] arr) {
+		
+	}
+	void m2(int... ar) {
+		
+	}
+}
+public class TOAcceptRandom {
+	public static void main(String[] args) {
+		
+	}
+
+}

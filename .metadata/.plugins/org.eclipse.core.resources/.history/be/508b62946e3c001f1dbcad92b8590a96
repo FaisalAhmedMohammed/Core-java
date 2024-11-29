@@ -1,0 +1,8 @@
+package com.ahmed.oop;
+
+public class usingArrays {
+	public static void main(String[] args) {
+		
+	}
+
+}

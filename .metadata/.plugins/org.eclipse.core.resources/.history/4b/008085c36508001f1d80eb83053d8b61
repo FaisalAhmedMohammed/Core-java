@@ -1,0 +1,21 @@
+package com.ahmed.co;
+
+import java.util.Scanner;
+
+class product{
+	int productId;
+	String productName;
+	double price;
+	void accept() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter product id");
+		productId=sc.nextInt();
+		
+	}
+}
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		
+	}
+
+}

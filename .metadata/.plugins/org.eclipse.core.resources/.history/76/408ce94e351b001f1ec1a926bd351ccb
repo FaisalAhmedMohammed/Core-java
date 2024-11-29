@@ -1,0 +1,13 @@
+package com.methods.co;
+
+public class Main {
+	public String displayName(String name) {
+		return name;
+	}
+	public static void main(String[] args) {
+		Main m=new Main();
+		String x=m.displayName("ashok");
+		
+	}
+
+}

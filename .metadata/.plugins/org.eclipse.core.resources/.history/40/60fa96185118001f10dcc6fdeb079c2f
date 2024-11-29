@@ -1,0 +1,9 @@
+package com.ahmed.oop;
+
+class Employee {
+	protected double salary;
+
+	Employee(double salary) {
+		this.salary = salary;
+	}
+}

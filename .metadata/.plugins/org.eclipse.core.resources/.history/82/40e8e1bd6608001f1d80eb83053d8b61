@@ -1,0 +1,38 @@
+package com.ahmed.co;
+
+import java.util.Scanner;
+
+class product {
+	int productId;
+	String productName;
+	double price;
+
+	void accept() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter product id");
+		productId = sc.nextInt();
+
+		System.out.println("Enter product name");
+		productName = sc.nextLine();
+
+		System.out.println("Enter price");
+		price = sc.nextDouble();
+	}
+
+	void display() {
+		System.out.println("product id= " + productId + ",product name= " + productName + ", price=" + price);
+	}
+}
+
+public class Classobjectandmethod {
+	public static void main(String[] args) {
+		product p = new product();
+		p.accept();
+		p.display();
+		product p2 = new product();
+		p2.accept();
+		p2.display();
+
+	}
+
+}

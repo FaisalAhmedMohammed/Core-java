@@ -1,0 +1,7 @@
+package com.ahmed.co;
+class Policy{
+	private int pid
+}
+public class Tester {
+
+}

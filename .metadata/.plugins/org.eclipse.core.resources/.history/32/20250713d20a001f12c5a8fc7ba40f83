@@ -1,0 +1,12 @@
+package com.ahmed.co;
+class Policy{
+	private int pid;
+	private String servicecategory;
+	private String seviceprovider;
+	private boolean isactive;
+	private LocalDate createdon;
+	private Local
+}
+public class Tester {
+
+}

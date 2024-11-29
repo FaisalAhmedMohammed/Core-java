@@ -1,0 +1,12 @@
+package com.ahmed.co;
+
+import java.util.Scanner;
+
+public class SumofEvenOdd {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter ");
+		
+	}
+
+}

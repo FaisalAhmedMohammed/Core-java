@@ -1,0 +1,27 @@
+package com.ahmed.oop;
+
+class Thread1 extends Thread {
+
+	@Override
+	public void run() {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("i =" + i);
+			System.out.println(i);
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException ex) {
+				ex.getMessage();
+
+			}
+		}
+		super.run();
+	}
+}
+
+public class CallingRunMethod {
+	public static void main(String[] args) {
+		Thr
+
+	}
+
+}

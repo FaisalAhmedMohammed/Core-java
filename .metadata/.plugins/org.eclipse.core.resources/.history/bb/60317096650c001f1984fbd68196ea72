@@ -1,0 +1,93 @@
+package com.ahmed.co;
+
+import java.util.Random;
+
+class Hello {
+	private int SeatNo;
+	private int noOfseatsToBook;
+	private static int SeatsAvailable;
+	private boolean Booked;
+	private String EmainId;
+
+	static {
+		SeatsAvailable = 30;
+	}
+
+	public Hello(int noOfseatsToBook, String emainId) {
+		this.noOfseatsToBook = noOfseatsToBook;
+		EmainId = emainId;
+	}
+
+	public void reserveseat() {
+		if (noOfseatsToBook > SeatsAvailable) {
+			Booked = false;
+		} else {
+			SeatsAvailable = SeatsAvailable - noOfseatsToBook;
+			Booked = true;
+			Random random = new Random();
+			SeatNo = random.nextInt(10000000);
+
+		}
+	}
+
+	public void cancelSeat() {
+		SeatsAvailable = SeatsAvailable + noOfseatsToBook;
+
+	}
+
+	public int getSeatNo() {
+		return SeatNo;
+	}
+
+	public void setSeatNo(int seatNo) {
+		SeatNo = seatNo;
+	}
+
+	public int getNoOfseatsToBook() {
+		return noOfseatsToBook;
+	}
+
+	public void setNoOfseatsToBook(int noOfseatsToBook) {
+		this.noOfseatsToBook = noOfseatsToBook;
+	}
+
+	public boolean Booked() {
+		return Booked;
+	}
+
+	public void setBooked(boolean Booked) {
+		Booked = Booked;
+	}
+
+	public String getEmainId() {
+		return EmainId;
+	}
+
+	public void setEmainId(String emainId) {
+		EmainId = emainId;
+	}
+}
+
+public class BookingTicket {
+	public static void main(String[] args) {
+		Hello h1 = new Hello(50, "ashok@123");
+		h1.reserveseat();
+		if (h1.Booked()) {
+			System.out.println("Tickets are booked                 :");
+			System.out.println("your bookingId                     :" + h1.getSeatNo());
+			System.out.println("conformation main is send to email :" + h1.getEmainId());
+		} else {
+			System.out.println("sorry your seat is not booked");
+		}
+		
+		Hello h2=new Hello(10, "ahmed@123");
+		h2.reserveseat();
+		if(h)
+			
+			
+			
+			
+			
+			
+	}
+}

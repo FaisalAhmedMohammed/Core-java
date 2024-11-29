@@ -1,0 +1,17 @@
+package in.ahmed;
+
+class Operation {
+
+	public void divide(int a, int b) {
+		int c = a + b;
+		System.out.println(a +"divided  ");
+
+	}
+
+}
+
+public class Tester {
+	public static void main(String[] args) {
+
+	}
+}

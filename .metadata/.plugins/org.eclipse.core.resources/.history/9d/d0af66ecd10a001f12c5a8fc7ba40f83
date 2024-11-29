@@ -1,0 +1,9 @@
+package com.ahmed.co;
+class Policy{
+	private int pid;
+	private String servicecategory;
+	
+}
+public class Tester {
+
+}

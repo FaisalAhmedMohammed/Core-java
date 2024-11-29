@@ -1,0 +1,30 @@
+package com.faisal.co;
+
+import java.util.Scanner;
+
+public class Vowelsandconsonenrs {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string");
+		String str = sc.nextLine();
+		findvowelsandconsonents(str);
+	}
+
+	private static void findvowelsandconsonents(String str) {
+		char[] ch = str.toCharArray();// f a i s a l a h m e d ;
+		int vowelcount = 0;
+		int consonentscount = 0;
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' || ch[i] == 'A'
+					|| ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U') {
+				vowelcount++;
+			} else if (!Character.isDigit(ch[i]) && ch[i] != '@' && ch[i] != '#' && ch[i] != '$') {
+				consonentscount++;
+			}
+		}
+		System.out.println(vowelcount);
+		System.out.println(consonentscount);
+
+	}
+
+}

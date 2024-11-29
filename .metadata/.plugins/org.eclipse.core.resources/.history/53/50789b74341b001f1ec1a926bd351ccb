@@ -1,0 +1,13 @@
+package com.methods.co;
+
+public class String {
+	public void m1(Str1 name) {
+		
+		
+	}
+	public static void main(Str1[] args) {
+		Str1 s=new Str1();
+		s.m1("faial");
+	}
+
+}

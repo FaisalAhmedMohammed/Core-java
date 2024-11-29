@@ -1,0 +1,12 @@
+package com.ahmed.co;
+class Parent{
+	void property() {
+		System.out.println("cash+gokd+lan");
+	}
+}
+public class Riding {
+	public static void main(String[] args) {
+		
+	}
+
+}

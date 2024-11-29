@@ -1,0 +1,71 @@
+package com.ahmed.co;
+
+import java.time.LocalDate;
+
+class Policy{
+	private int pid;
+	public int getPid() {
+		return pid;
+	}
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+	public String getServicecategory() {
+		return servicecategory;
+	}
+	public void setServicecategory(String servicecategory) {
+		this.servicecategory = servicecategory;
+	}
+	public String getSeviceprovider() {
+		return seviceprovider;
+	}
+	public void setSeviceprovider(String seviceprovider) {
+		this.seviceprovider = seviceprovider;
+	}
+	public boolean isIsactive() {
+		return isactive;
+	}
+	public void setIsactive(boolean isactive) {
+		this.isactive = isactive;
+	}
+	public LocalDate getCreatedon() {
+		return createdon;
+	}
+	public void setCreatedon(LocalDate createdon) {
+		this.createdon = createdon;
+	}
+	public LocalDate getExprieson() {
+		return exprieson;
+	}
+	public void setExprieson(LocalDate exprieson) {
+		this.exprieson = exprieson;
+	}
+	private String servicecategory;
+	private String seviceprovider;
+	private boolean isactive;
+	private LocalDate createdon;
+	private LocalDate exprieson;
+	public Policy(int pid, String servicecategory, String seviceprovider, boolean isactive, LocalDate createdon,
+			LocalDate exprieson) {
+		super();
+		this.pid = pid;
+		this.servicecategory = servicecategory;
+		this.seviceprovider = seviceprovider;
+		this.isactive = isactive;
+		this.createdon = createdon;
+		this.exprieson = exprieson;
+	}
+	void show() {
+		System.out.println(P"id     :);
+	}
+}
+public class Tester {
+	public static void main(String[] args) {
+		Policy poli=new Policy(10012,"health",
+				 "HDFC"
+				,true
+				,LocalDate.of(2024, 02, 12)
+				,LocalDate.of(2025, 05, 10));
+	}
+
+}

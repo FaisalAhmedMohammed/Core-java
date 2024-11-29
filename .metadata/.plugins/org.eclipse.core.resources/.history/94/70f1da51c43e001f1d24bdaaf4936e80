@@ -1,0 +1,25 @@
+package com.ahmed.thread;
+
+public class YieldMethod {
+	public static void main(String[] args) {
+		Runnable task1 = () -> {
+			for (int i = 1; i <= 10; i++) {
+				System.out.println(" Inside- "+Thread.currentThread().getName());
+				System.out.println("i = " + i);
+				Thread.yield();
+			}
+			System.out.println(Thread.currentThread().getName()+" Finished -");
+		};
+		
+		Runnable task2=()->{
+			for(int j=11;j<=20;j++) {
+				System.out.println(" Inside- "+Thread.currentThread().getName());
+
+				System.out.println("j = "+j);
+				Thread.yield();
+			}
+		};
+
+	}
+
+}

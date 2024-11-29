@@ -1,0 +1,13 @@
+package com.ahmed.co;
+class B{
+	void B(){
+		
+	}
+}
+class C
+public class Overriding {
+	public static void main(String[] args) {
+		
+	}
+
+}

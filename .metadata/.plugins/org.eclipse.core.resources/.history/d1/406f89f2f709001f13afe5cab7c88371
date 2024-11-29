@@ -1,0 +1,47 @@
+package com.ahmed.co;
+
+class product1 {
+	private int productId;
+	private String productname;
+	private double price;
+
+	public int getProductId() {
+		return productId;
+	}
+
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+
+	public String getProdctname() {
+		return productname;
+	}
+
+	public void setProdctname(String prodctname) {
+		this.prodctname = prodctname;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	void showdetails() {
+		System.out.println(productId + productname + price);
+	}
+
+}
+
+public class Settergetter {
+	public static void main(String[] args) {
+		product1 p1 = new product1();
+		p1.setProductId(101);
+		p1.setProdctname("tv");
+		p1.setPrice(80000);
+		p1.showdetails();
+	}
+
+}

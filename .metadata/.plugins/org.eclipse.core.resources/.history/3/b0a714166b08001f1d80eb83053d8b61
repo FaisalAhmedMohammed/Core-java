@@ -1,0 +1,11 @@
+package com.ahmed.co;
+
+class Arithmetic{
+	
+}
+public class This {
+	public static void main(String[] args) {
+		
+	}
+
+}

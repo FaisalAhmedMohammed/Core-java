@@ -1,0 +1,31 @@
+package com.ahmed.oop;
+
+class Employee {
+	protected double salary;
+
+	Employee(double salary) {
+		this.salary = salary;
+	}
+}
+
+class ContractEmployee extends Employee {
+	private double basicsalary;
+
+	ContractEmployee(double salary, double basicsalary) {
+		super(salary);
+		this.basicsalary = basicsalary;
+	}
+
+	void show() {
+		System.out.println(salary);
+		System.out.println(basicsalary);
+	}
+}
+
+public class ParametrtizedConstructer {
+	public static void main(String[] args) {
+		ContractEmployee ce = new ContractEmployee(2000.0, 5000.0);
+		ce.show();
+	}
+
+}

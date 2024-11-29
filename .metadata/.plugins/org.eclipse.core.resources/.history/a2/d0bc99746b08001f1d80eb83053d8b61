@@ -1,0 +1,28 @@
+package com.ahmed.co;
+
+class Arithmetic {
+	int num1;
+	int num2;
+
+	void accept() {
+		num1=num1;
+		num2=num2;
+
+	}
+
+	void add() {
+		System.out.println(num1 + num2);
+
+	}
+}
+
+public class This {
+	public static void main(String[] args) {
+		int x = 10, y = 20;
+		Arithmetic am = new Arithmetic();
+		am.accept();
+		am.add();
+
+	}
+
+}

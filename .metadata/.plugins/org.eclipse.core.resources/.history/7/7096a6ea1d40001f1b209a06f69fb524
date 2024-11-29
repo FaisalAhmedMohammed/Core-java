@@ -1,0 +1,25 @@
+package com.ahmed.thread;
+
+public class Local {
+	private static ThreadLocal<Integer> threadLocal = ThreadLocal.withInitial(() -> 1);
+
+	public static void main(String[] args) {
+		Runnable task = () -> {
+
+			System.out.println(Thread.currentThread().getName() + " intial thread value " + threadLocal.get());
+
+			threadLocal.set(threadLocal.get() * 5);
+			System.out.println(
+					Thread.currentThread().getName() + "thread local value after modification :" + threadLocal.get());
+		};
+		Thread t1 = new Thread(task, "first Thread");
+		Thread t2 = new Thread(task, "second Thread");
+		Thread t3 = new Thread(task, "Third Thread");
+
+		t1.start();
+		t2.start();
+		t3.start();
+
+	}
+
+}

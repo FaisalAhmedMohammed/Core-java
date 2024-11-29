@@ -1,0 +1,11 @@
+package com.methods.co;
+
+public class Factorial {
+	public void fact(int a) {
+		for(int )
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

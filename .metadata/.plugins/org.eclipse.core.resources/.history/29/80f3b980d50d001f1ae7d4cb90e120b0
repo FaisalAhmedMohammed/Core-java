@@ -1,0 +1,14 @@
+package com.ahmed.co;
+ class Student{
+	   private String name;
+	   
+	   Student(String namea){
+		   this.name=name;
+	   }
+ }
+public class Main1 {
+	public static void main(String[] args) {
+		
+	}
+
+}
