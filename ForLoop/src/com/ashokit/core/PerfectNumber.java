@@ -1,10 +1,12 @@
 package com.ashokit.core;
-
+/* sum of factors excluding that given number is called a perfect number
+ * /
+ */
 import java.util.Scanner;
 
 public class PerfectNumber {
 	public static void FindPerfectNumber(int n) {
-		if (n <= 1) {
+		if (n <= 1) {// 1 is not a prime number and not a perfect number.
 			System.out.println("Not a Perfect Number");
 			return;
 		}

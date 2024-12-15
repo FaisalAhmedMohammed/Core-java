@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.ashokit.core.Driver1"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Driver2"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Doctor"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Driver3"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Mwtod_ToPrint_Data_In_Object"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.person"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.MTo_ret_Person_As_Object"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.college"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Return_object"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.raju"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.persom"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Taking_input_ret_out"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.player"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.players"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.Return_object_BasedOn_Input"/>
-    <fullyQualifiedTypeName name="com.ashokit.core.University"/>
     <fullyQualifiedTypeName name="com.ashokit.core.University_by_StaticMet"/>
     <fullyQualifiedTypeName name="com.ashokit.core.people"/>
     <fullyQualifiedTypeName name="com.ashokit.core.sports"/>
@@ -55,9 +39,25 @@
     <fullyQualifiedTypeName name="in.ashokit.ContractEmployee"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="in.ashokit.Book_A_Ticket"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="in.ashokit.Policy"/>
     <fullyQualifiedTypeName name="in.ashokit.Customer"/>
     <fullyQualifiedTypeName name="in.ashokit.InsuranceCompany"/>
     <fullyQualifiedTypeName name="in.ahmed.Operation"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.PermenentEmployee"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.ContactEmployee"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.One"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.Two"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.InsurancePolicy"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.HealthInsurancePolicy"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.child"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.Test"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.CrudRepo"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.SortingRepo"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="in.ahmed.co.Employee"/>
+    <fullyQualifiedTypeName name="in.ahmed.interfac.PaymentProcessor"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.spi.TransactionalWriter"/>
+    <fullyQualifiedTypeName name="in.ahmed.interfac.PaymentService"/>
+    <fullyQualifiedTypeName name="in.ahmed.interfac.PaypalProcessor"/>
 </qualifiedTypeNameHistroy>

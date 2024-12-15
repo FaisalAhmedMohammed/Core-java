@@ -8,12 +8,12 @@ public class Switch_03 {
 			System.out.println("monday is lazy day");
 			break;
 		case "Tuesday":
-		case "wednesday":
-		case "thursday":
+		case "weay":
+		case "thudnesdrsday":
 			System.out.println("it i horrable day!!");
 			break;
 		case "friday":
-			System.out.println("friday is so so||");
+			System.out.println("Friday is Good Day ||");
 			break;
 		case "saturday":
 		case "sunday":

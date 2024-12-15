@@ -1,7 +1,0 @@
-package in.ahmed;
-
-public class Operation {
-	
-	public void divide(int a)
-
-}

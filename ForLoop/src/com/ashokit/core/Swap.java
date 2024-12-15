@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Swap {
 	private static void Swap(int a, int b) {
 		int temp;// 10 20
+		
 		temp = a;// 10
 		a = b;// 20
 		b = temp;// 10
